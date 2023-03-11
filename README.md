@@ -3,6 +3,6 @@
 
 <div id="raw" align="center">
 <br>
-<img src="https://github.com/akadjoker/SFMLonRAYLib/main/image.png" width="180" height="120" />
+<img src="https://github.com/akadjoker/SFMLonRAYLib/blob/main/image.png" />
 <br>
 <div>
