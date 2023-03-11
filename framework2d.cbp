@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="framework2d" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/framework2d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lraylib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/framework2d" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/CircleShape.hpp" />
+		<Unit filename="include/Clock.hpp" />
+		<Unit filename="include/Color.hpp" />
+		<Unit filename="include/Config.hpp" />
+		<Unit filename="include/ConvexShape.hpp" />
+		<Unit filename="include/Drawable.hpp" />
+		<Unit filename="include/Export.hpp" />
+		<Unit filename="include/NonCopyable.hpp" />
+		<Unit filename="include/PrimitiveType.hpp" />
+		<Unit filename="include/Rect.hpp" />
+		<Unit filename="include/Rect.inl" />
+		<Unit filename="include/RectangleShape.hpp" />
+		<Unit filename="include/Shape.hpp" />
+		<Unit filename="include/Sprite.hpp" />
+		<Unit filename="include/String.hpp" />
+		<Unit filename="include/String.inl" />
+		<Unit filename="include/Time.hpp" />
+		<Unit filename="include/Transform.hpp" />
+		<Unit filename="include/Transformable.hpp" />
+		<Unit filename="include/Utf.hpp" />
+		<Unit filename="include/Utf.inl" />
+		<Unit filename="include/Vector2.hpp" />
+		<Unit filename="include/Vector2.inl" />
+		<Unit filename="include/Vector3.hpp" />
+		<Unit filename="include/Vector3.inl" />
+		<Unit filename="include/Vertex.hpp" />
+		<Unit filename="include/VertexArray.hpp" />
+		<Unit filename="include/View.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/CircleShape.cpp" />
+		<Unit filename="src/Clock.cpp" />
+		<Unit filename="src/Color.cpp" />
+		<Unit filename="src/ConvexShape.cpp" />
+		<Unit filename="src/RectangleShape.cpp" />
+		<Unit filename="src/Shape.cpp" />
+		<Unit filename="src/Sleep.cpp" />
+		<Unit filename="src/Sprite.cpp" />
+		<Unit filename="src/String.cpp" />
+		<Unit filename="src/Time.cpp" />
+		<Unit filename="src/Transform.cpp" />
+		<Unit filename="src/Transformable.cpp" />
+		<Unit filename="src/Vertex.cpp" />
+		<Unit filename="src/VertexArray.cpp" />
+		<Unit filename="src/VertexArray.hpp" />
+		<Unit filename="src/View.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

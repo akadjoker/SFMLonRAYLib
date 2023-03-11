@@ -1,0 +1,426 @@
+# depslib dependency file v1.0
+1663943271 source:/media/djoker/data/code/cpp/framework2d/src/dummy.cpp
+	"dummy.h"
+
+1663943271 /media/djoker/data/code/cpp/framework2d/include/dummy.h
+
+1664001767 source:/media/djoker/data/code/cpp/framework2d/main.cpp
+	"Config.hpp"
+	"NonCopyable.hpp"
+	"String.hpp"
+	"Utf.hpp"
+	"Color.hpp"
+	"Rect.hpp"
+	"Time.hpp"
+	"Clock.hpp"
+	"Vector2.hpp"
+	"Vector3.hpp"
+	"Transform.hpp"
+	"Transformable.hpp"
+	"Drawable.hpp"
+	"Rect.hpp"
+	"CircleShape.hpp"
+	"ConvexShape.hpp"
+	"RectangleShape.hpp"
+	"Sprite.hpp"
+	"Vertex.hpp"
+	"VertexArray.hpp"
+	<raylib.h>
+	<rlgl.h>
+	<iostream>
+	<math.h>
+
+1663945601 /media/djoker/data/code/cpp/framework2d/include/Config.hpp
+	<raylib.h>
+
+1663944855 /media/djoker/data/code/cpp/framework2d/include/NonCopyable.hpp
+	"Export.hpp"
+
+1663945601 /media/djoker/data/code/cpp/framework2d/include/Export.hpp
+	"Config.hpp"
+
+1663944783 /media/djoker/data/code/cpp/framework2d/include/String.hpp
+	"Export.hpp"
+	"Utf.hpp"
+	<iterator>
+	<locale>
+	<string>
+	"String.inl"
+
+1663944503 /media/djoker/data/code/cpp/framework2d/include/Utf.hpp
+	"Config.hpp"
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	"Utf.inl"
+
+1539632499 /media/djoker/data/code/cpp/framework2d/include/Utf.inl
+
+1539632499 /media/djoker/data/code/cpp/framework2d/include/String.inl
+
+1663944525 /media/djoker/data/code/cpp/framework2d/include/Vector2.hpp
+	"Vector2.inl"
+
+1663944218 /media/djoker/data/code/cpp/framework2d/include/Vector2.inl
+
+1663944573 /media/djoker/data/code/cpp/framework2d/include/Vector3.hpp
+	"Vector3.inl"
+
+1663944587 /media/djoker/data/code/cpp/framework2d/include/Vector3.inl
+
+1663944668 source:/media/djoker/data/code/cpp/framework2d/src/String.cpp
+	"String.hpp"
+	"Utf.hpp"
+	<iterator>
+	<cstring>
+
+1663944718 source:/media/djoker/data/code/cpp/framework2d/src/Color.cpp
+	"Color.hpp"
+	<algorithm>
+
+1663944718 /media/djoker/data/code/cpp/framework2d/include/Color.hpp
+	"Export.hpp"
+
+1663944962 source:/media/djoker/data/code/cpp/framework2d/src/Time.cpp
+	"Time.hpp"
+
+1663945032 /media/djoker/data/code/cpp/framework2d/include/Time.hpp
+	"Export.hpp"
+
+1663945195 source:/media/djoker/data/code/cpp/framework2d/src/Clock.cpp
+	"Clock.hpp"
+	<time.h>
+
+1663944855 /media/djoker/data/code/cpp/framework2d/include/Clock.hpp
+	"Export.hpp"
+	"Time.hpp"
+
+1663945379 source:/media/djoker/data/code/cpp/framework2d/src/Sleep.cpp
+	<errno.h>
+	<time.h>
+	"Time.hpp"
+
+1663946083 /media/djoker/data/code/cpp/framework2d/include/Rect.hpp
+	"Vector2.hpp"
+	<algorithm>
+	"Rect.inl"
+
+1663944218 /media/djoker/data/code/cpp/framework2d/include/Rect.inl
+
+1663946108 /media/djoker/data/code/cpp/framework2d/include/Transform.hpp
+	"Export.hpp"
+	"Rect.hpp"
+	"Vector2.hpp"
+
+1663945843 /media/djoker/data/code/cpp/framework2d/include/Transformable.hpp
+	"Export.hpp"
+	"Transform.hpp"
+
+1664001109 /media/djoker/data/code/cpp/framework2d/include/Drawable.hpp
+	"Export.hpp"
+
+1663945986 /media/djoker/data/code/cpp/framework2d/include/Vertex.hpp
+	"Export.hpp"
+	"Color.hpp"
+	"Vector2.hpp"
+
+1663950475 /media/djoker/data/code/cpp/framework2d/include/VertexArray.hpp
+	"Export.hpp"
+	"Vertex.hpp"
+	"PrimitiveType.hpp"
+	"Rect.hpp"
+	"Drawable.hpp"
+	<vector>
+
+1663950543 /media/djoker/data/code/cpp/framework2d/include/PrimitiveType.hpp
+
+1663946778 source:/media/djoker/data/code/cpp/framework2d/src/RectangleShape.cpp
+	"RectangleShape.hpp"
+	<cmath>
+
+1663946398 /media/djoker/data/code/cpp/framework2d/include/RectangleShape.hpp
+	"Shape.hpp"
+	"Transform.hpp"
+
+1663961837 /media/djoker/data/code/cpp/framework2d/include/Shape.hpp
+	"Export.hpp"
+	"Drawable.hpp"
+	"Transformable.hpp"
+	"VertexArray.hpp"
+	"Vector2.hpp"
+
+1663961844 source:/media/djoker/data/code/cpp/framework2d/src/Shape.cpp
+	"Shape.hpp"
+	<raylib.h>
+	<rlgl.h>
+	<stdlib.h>
+	<cstdio>
+	<cmath>
+
+1663947627 source:/media/djoker/data/code/cpp/framework2d/src/Transform.cpp
+	"Transform.hpp"
+	<cmath>
+
+1663947629 source:/media/djoker/data/code/cpp/framework2d/src/Transformable.cpp
+	"Transformable.hpp"
+	<cmath>
+
+1663947673 source:/media/djoker/data/code/cpp/framework2d/src/Vertex.cpp
+	"Vertex.hpp"
+
+1663947658 source:/media/djoker/data/code/cpp/framework2d/src/View.cpp
+	"View.hpp"
+	<cmath>
+
+1663947745 /media/djoker/data/code/cpp/framework2d/include/View.hpp
+	"Export.hpp"
+	"Rect.hpp"
+	"Transform.hpp"
+	"Vector2.hpp"
+
+1664001531 source:/media/djoker/data/code/cpp/framework2d/src/VertexArray.cpp
+	"VertexArray.hpp"
+	<raylib.h>
+	<rlgl.h>
+
+1663948604 source:/media/djoker/data/code/cpp/framework2d/src/CircleShape.cpp
+	"CircleShape.hpp"
+	<cmath>
+
+1663948605 /media/djoker/data/code/cpp/framework2d/include/CircleShape.hpp
+	"Export.hpp"
+	"Shape.hpp"
+
+1663948641 source:/media/djoker/data/code/cpp/framework2d/src/ConvexShape.cpp
+	"ConvexShape.hpp"
+
+1663948641 /media/djoker/data/code/cpp/framework2d/include/ConvexShape.hpp
+	"Export.hpp"
+	"Shape.hpp"
+	<vector>
+
+1663960838 source:/media/djoker/data/code/cpp/framework2d/src/Sprite.cpp
+	<raylib.h>
+	<rlgl.h>
+	"Sprite.hpp"
+	<cstdlib>
+	<cstdio>
+
+1663957130 /media/djoker/data/code/cpp/framework2d/include/Sprite.hpp
+	"Export.hpp"
+	"Drawable.hpp"
+	"Transformable.hpp"
+	"Vertex.hpp"
+	"Rect.hpp"
+
+1664001767 source:/media/djoker/data/code/projectos/framework2d/main.cpp
+	"Config.hpp"
+	"NonCopyable.hpp"
+	"String.hpp"
+	"Utf.hpp"
+	"Color.hpp"
+	"Rect.hpp"
+	"Time.hpp"
+	"Clock.hpp"
+	"Vector2.hpp"
+	"Vector3.hpp"
+	"Transform.hpp"
+	"Transformable.hpp"
+	"Drawable.hpp"
+	"Rect.hpp"
+	"CircleShape.hpp"
+	"ConvexShape.hpp"
+	"RectangleShape.hpp"
+	"Sprite.hpp"
+	"Vertex.hpp"
+	"VertexArray.hpp"
+	<raylib.h>
+	<rlgl.h>
+	<iostream>
+	<math.h>
+
+1663945601 /media/djoker/data/code/projectos/framework2d/include/Config.hpp
+	<raylib.h>
+
+1663944855 /media/djoker/data/code/projectos/framework2d/include/NonCopyable.hpp
+	"Export.hpp"
+
+1663945601 /media/djoker/data/code/projectos/framework2d/include/Export.hpp
+	"Config.hpp"
+
+1663944783 /media/djoker/data/code/projectos/framework2d/include/String.hpp
+	"Export.hpp"
+	"Utf.hpp"
+	<iterator>
+	<locale>
+	<string>
+	"String.inl"
+
+1663944503 /media/djoker/data/code/projectos/framework2d/include/Utf.hpp
+	"Config.hpp"
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	"Utf.inl"
+
+1539632499 /media/djoker/data/code/projectos/framework2d/include/Utf.inl
+
+1539632499 /media/djoker/data/code/projectos/framework2d/include/String.inl
+
+1663944718 /media/djoker/data/code/projectos/framework2d/include/Color.hpp
+	"Export.hpp"
+
+1663946083 /media/djoker/data/code/projectos/framework2d/include/Rect.hpp
+	"Vector2.hpp"
+	<algorithm>
+	"Rect.inl"
+
+1663944525 /media/djoker/data/code/projectos/framework2d/include/Vector2.hpp
+	"Vector2.inl"
+
+1663944218 /media/djoker/data/code/projectos/framework2d/include/Vector2.inl
+
+1663944218 /media/djoker/data/code/projectos/framework2d/include/Rect.inl
+
+1663945032 /media/djoker/data/code/projectos/framework2d/include/Time.hpp
+	"Export.hpp"
+
+1663944855 /media/djoker/data/code/projectos/framework2d/include/Clock.hpp
+	"Export.hpp"
+	"Time.hpp"
+
+1663944573 /media/djoker/data/code/projectos/framework2d/include/Vector3.hpp
+	"Vector3.inl"
+
+1663944587 /media/djoker/data/code/projectos/framework2d/include/Vector3.inl
+
+1663946108 /media/djoker/data/code/projectos/framework2d/include/Transform.hpp
+	"Export.hpp"
+	"Rect.hpp"
+	"Vector2.hpp"
+
+1663945843 /media/djoker/data/code/projectos/framework2d/include/Transformable.hpp
+	"Export.hpp"
+	"Transform.hpp"
+
+1664001109 /media/djoker/data/code/projectos/framework2d/include/Drawable.hpp
+	"Export.hpp"
+
+1663948605 /media/djoker/data/code/projectos/framework2d/include/CircleShape.hpp
+	"Export.hpp"
+	"Shape.hpp"
+
+1663961837 /media/djoker/data/code/projectos/framework2d/include/Shape.hpp
+	"Export.hpp"
+	"Drawable.hpp"
+	"Transformable.hpp"
+	"VertexArray.hpp"
+	"Vector2.hpp"
+
+1663950475 /media/djoker/data/code/projectos/framework2d/include/VertexArray.hpp
+	"Export.hpp"
+	"Vertex.hpp"
+	"PrimitiveType.hpp"
+	"Rect.hpp"
+	"Drawable.hpp"
+	<vector>
+
+1663945986 /media/djoker/data/code/projectos/framework2d/include/Vertex.hpp
+	"Export.hpp"
+	"Color.hpp"
+	"Vector2.hpp"
+
+1663950543 /media/djoker/data/code/projectos/framework2d/include/PrimitiveType.hpp
+
+1663948641 /media/djoker/data/code/projectos/framework2d/include/ConvexShape.hpp
+	"Export.hpp"
+	"Shape.hpp"
+	<vector>
+
+1663946398 /media/djoker/data/code/projectos/framework2d/include/RectangleShape.hpp
+	"Shape.hpp"
+	"Transform.hpp"
+
+1663957130 /media/djoker/data/code/projectos/framework2d/include/Sprite.hpp
+	"Export.hpp"
+	"Drawable.hpp"
+	"Transformable.hpp"
+	"Vertex.hpp"
+	"Rect.hpp"
+
+1663948604 source:/media/djoker/data/code/projectos/framework2d/src/CircleShape.cpp
+	"CircleShape.hpp"
+	<cmath>
+
+1663945195 source:/media/djoker/data/code/projectos/framework2d/src/Clock.cpp
+	"Clock.hpp"
+	<time.h>
+
+1663944718 source:/media/djoker/data/code/projectos/framework2d/src/Color.cpp
+	"Color.hpp"
+	<algorithm>
+
+1663948641 source:/media/djoker/data/code/projectos/framework2d/src/ConvexShape.cpp
+	"ConvexShape.hpp"
+
+1663946778 source:/media/djoker/data/code/projectos/framework2d/src/RectangleShape.cpp
+	"RectangleShape.hpp"
+	<cmath>
+
+1663961844 source:/media/djoker/data/code/projectos/framework2d/src/Shape.cpp
+	"Shape.hpp"
+	<raylib.h>
+	<rlgl.h>
+	<stdlib.h>
+	<cstdio>
+	<cmath>
+
+1663945379 source:/media/djoker/data/code/projectos/framework2d/src/Sleep.cpp
+	<errno.h>
+	<time.h>
+	"Time.hpp"
+
+1663960838 source:/media/djoker/data/code/projectos/framework2d/src/Sprite.cpp
+	<raylib.h>
+	<rlgl.h>
+	"Sprite.hpp"
+	<cstdlib>
+	<cstdio>
+
+1663944668 source:/media/djoker/data/code/projectos/framework2d/src/String.cpp
+	"String.hpp"
+	"Utf.hpp"
+	<iterator>
+	<cstring>
+
+1663944962 source:/media/djoker/data/code/projectos/framework2d/src/Time.cpp
+	"Time.hpp"
+
+1663947627 source:/media/djoker/data/code/projectos/framework2d/src/Transform.cpp
+	"Transform.hpp"
+	<cmath>
+
+1663947629 source:/media/djoker/data/code/projectos/framework2d/src/Transformable.cpp
+	"Transformable.hpp"
+	<cmath>
+
+1663947673 source:/media/djoker/data/code/projectos/framework2d/src/Vertex.cpp
+	"Vertex.hpp"
+
+1664001531 source:/media/djoker/data/code/projectos/framework2d/src/VertexArray.cpp
+	"VertexArray.hpp"
+	<raylib.h>
+	<rlgl.h>
+
+1663947658 source:/media/djoker/data/code/projectos/framework2d/src/View.cpp
+	"View.hpp"
+	<cmath>
+
+1663947745 /media/djoker/data/code/projectos/framework2d/include/View.hpp
+	"Export.hpp"
+	"Rect.hpp"
+	"Transform.hpp"
+	"Vector2.hpp"
+
